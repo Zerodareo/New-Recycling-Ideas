@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Outfit:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>New Recycing Ideas</title>
+</head>
+
+<body>
+
+    <section class="bordercolortext">
+        <div class="titletext">
+            <p>New Recycling <span class="ideastext"> Ideas</span> </p>
+        </div>
+        <div class="loremtext">
+            LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT
+        </div>
+    </section>
+
+    <section class="firstblock">
+        <img class="image" src="improve-recycling-process.jpg">
+    </section>
+
+    <section class="secondblock">
+        <div class="contactinformations">
+            CONTACT US
+        </div>
+
+        <form action="traitement.php" method="POST">
+            <label for="email"> Email <br>
+            </label>
+            <input type="email" placeholder="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="sujet">Sujet <br> </label>
+            <select name="sujet" id="sujet">
+                <option value="1"> Prise de contact</option>
+                <option value="2"> Demande de devis</option>
+                <option value="3"> FAQ pour d'autres demandes plus spécifiques</option>
+            </select>
+            <br>
+            <br>
+            <label for="message"> Message <br>
+            </label>
+            <textarea name="message" id="msg" cols="70" rows="10" placeholder="Message"></textarea>
+            <input type="submit" name="envoyer" value="Envoyer">
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body{
+    height: 90%;
+    width: 900px;
+}
+.bordercolortext{
+    background-color: #333333;
+    width: 170%;
+    margin-top: -4%;
+}
+.titletext{
+    font-family: 'Lato';
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.ideastext{
+    color: #95bd38;
+}
+.loremtext{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Lato';
+    margin-top: -2%;
+}
+.image{
+   margin-left: 50%;
+}
+.contactinformations{
+    text-align: center;
+    margin-left: -50%;
+    font-weight: 700;
+    font-family: 'Lato';
+    font-size: 34px;
+    margin-top: -2%;
+    padding: 5%;
+}
+.firstblock{
+    width: 70%;
+    margin-bottom: -18%;
+}
+.secondblock{
+    margin-left: 64%;   
+}
